@@ -15,12 +15,6 @@ body {
     background: #0F1453;
     width: 600px;
     height: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
 }
 
 .palette.color.circle{
@@ -34,7 +28,7 @@ body {
     background: #E53549;
 }
 
-.color_name{
+.palette.color.color_name{
     color: #fff;
 }
 
@@ -62,15 +56,9 @@ samp {
 
 img {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
-    background: transparent;
+    border-radius: 4px;
     display: block;
-    margin: 50px 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    margin: 1.3em auto;
 }
 
 @keyframes colorize {
