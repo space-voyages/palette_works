@@ -15,20 +15,26 @@ body {
     background: #0F1453;
     width: 600px;
     height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
-.palette.color.circle{
+.circle{
     display: inline-block;
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
 
-.palette.color.circle.natsumi{
+.palette .color .circle.natsumi{
     background: #E53549;
 }
 
-.palette.color.color_name{
+.palette .color .color_name{
     color: #fff;
 }
 
