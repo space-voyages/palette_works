@@ -11,6 +11,10 @@ body {
     line-height: 1.5;
 }
 
+.title{
+    margin: 0;
+}
+
 .title img{
     width: 100px;
 }
@@ -103,7 +107,7 @@ img {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     border-radius: 4px;
     display: block;
-    margin: 1.3em auto;
+    margin: auto;
 }
 
 @keyframes colorize {
