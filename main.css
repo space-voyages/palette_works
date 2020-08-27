@@ -29,13 +29,22 @@ body {
     height: 60px;
     border-radius: 50%;
 }
+.palette .color{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
 
 .palette .color .circle.natsumi{
     background: #E53549;
+    margin: 0;
+    padding: 0;
 }
 
 .palette .color .color_name{
     color: #fff;
+    font-size: 14px;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
