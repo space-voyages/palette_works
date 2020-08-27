@@ -27,6 +27,9 @@ body {
 }
 
 .palette_box{
+    display: block;
+    margin: 0;
+    padding: 0 -60px 0 0;
     
 }
 
@@ -41,12 +44,12 @@ body {
 
 .palette .palette_box .color{
     float: left;
-    margin: 0 40px 0px 0px;
+    margin: 0 60px 0px 0px;
     padding: 0;
 }
 
 .palette .palette_box .color:nth-child(4){
-    margin: 0 -40px 0px 0px;
+    margin: 0 -60px 0px 0px;
 }
 
 .palette .palette_box .color .circle.natsumi{
