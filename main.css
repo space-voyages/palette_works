@@ -30,7 +30,7 @@ body {
     border-radius: 50%;
 }
 .palette .color{
-    display: block;
+    display: inline-block;
     margin: 0;
     padding: 0;
 }
@@ -55,6 +55,7 @@ body {
     color: #fff;
     font-size: 14px;
     margin: 0;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,9 +68,6 @@ h2 {
     margin-top: 1.3em;
 }
 
-a {
-    color: #0083e8;
-}
 
 b, strong {
     font-weight: 600;
