@@ -11,6 +11,10 @@ body {
     line-height: 1.5;
 }
 
+.title{
+    width: 100px;
+}
+
 .palette{
     display: block;
     background: #0F1453;
@@ -39,8 +43,6 @@ body {
     height: 80px;
     border-radius: 50%;
 }
-
-
 
 .palette .palette_box .color{
     float: left;
