@@ -26,39 +26,46 @@ body {
     -ms-transform: translate(-50%, -50%);
 }
 
-.circle{
+.palette_box{
+    
+}
+
+.palette .circle{
     display: inline-block;
     width: 80px;
     height: 80px;
     border-radius: 50%;
 }
-.palette .color{
+
+
+
+.palette .palette_box .color{
     float: left;
     margin: 0 40px 0px 0px;
     padding: 0;
 }
 
-.palette .color:nth-child(n){
+.palette .palette_box .color:nth-child(4){
     margin: 0 -40px 0px 0px;
 }
 
-.palette .color .circle.natsumi{
+.palette .palette_box .color .circle.natsumi{
     background: #E53549;
 }
-.palette .color .circle.works{
-    background: #E53549;
+.palette .palette_box .color .circle.works{
+    background: #826123;
 }
-.palette .color .circle.photo{
-    background: #E53549;
+.palette .palette_box .color .circle.photo{
+    background: #252E9A;
 }
-.palette .color .circle.words{
-    background: #E53549;
+.palette .palette_box .color .circle.words{
+    background: #F0643B;
 }
-.palette .color .circle.love{
-    background: #E53549;
+.palette .palette_box .color .circle.love{
+    background: #EAA9EA;
 }
 
-.palette .color .color_name{
+.palette .palette_box .color .color_name{
     color: #fff;
     font-size: 14px;
     margin: 0;
