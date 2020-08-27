@@ -37,8 +37,18 @@ body {
 
 .palette .color .circle.natsumi{
     background: #E53549;
-    margin: 0;
-    padding: 0;
+}
+.palette .color .circle.works{
+    background: #E53549;
+}
+.palette .color .circle.photo{
+    background: #E53549;
+}
+.palette .color .circle.words{
+    background: #E53549;
+}
+.palette .color .circle.love{
+    background: #E53549;
 }
 
 .palette .color .color_name{
