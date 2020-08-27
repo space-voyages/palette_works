@@ -38,6 +38,10 @@ body {
     padding: 0;
 }
 
+.palette .color:nth-child(n){
+    margin: 0 -40px 0px 0px;
+}
+
 .palette .color .circle.natsumi{
     background: #E53549;
 }
