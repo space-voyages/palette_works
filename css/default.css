@@ -35,6 +35,10 @@ img {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
 }
 
+p{
+    margin: 0;
+}
+
 @keyframes colorize {
     0% {
         -webkit-filter: grayscale(100%);

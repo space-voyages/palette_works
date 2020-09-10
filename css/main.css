@@ -3,6 +3,7 @@ html {
     -webkit-font-smoothing: antialiased;*/
     margin: 0;
     border: none;
+    overflow: hidden;
 }
 
 body {
@@ -10,8 +11,11 @@ body {
     font-size: 16px;
 }
 
-.wrapper {
-    min-height: 100vh;
+.title{
+    position: absolute;
+    top: -130px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .title img {
@@ -30,10 +34,10 @@ body {
 }
 
 .palette {
+    position: relative;
     background: #0F1453;
     width: 600px;
     height: 445px;
-    position: relative;
 }
 
 .palette_box {
@@ -193,7 +197,7 @@ body {
 
 .text_main {
     text-align: left;
-    margin-top: 20px;
+    margin: 20px 0 0;
 }
 
 .list01 {
@@ -225,8 +229,11 @@ body {
 }
 
 .footer {
-    display: block;
+    position: fixed;
     margin: auto;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
 }
 
 .footer img {
@@ -254,8 +261,9 @@ img {
 
 .img_data_two{
     position: absolute;
+    width: 280px;
     bottom: -50px;
-    right: -280px;
+    right: -100px;
 }
 
 .img_data .img_01{
@@ -264,11 +272,11 @@ img {
 }
 
 .img_data_two .img_two_01{
-    width: 25%;
+    width: 50%;
     transform: rotate(15deg);
 }
 .img_data_two .img_two_02{
-    width: 25%;
+    width: 50%;
     margin-left: -20px;
     margin-bottom: 50px;
     transform: rotate(-10deg);
