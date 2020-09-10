@@ -145,52 +145,52 @@ body {
 }
 
 .color_title.natsumi:before {
-    background-image: url(/img/color/color_01.png);
+    background-image: url(../img/color/color_01.png);
 }
 
 .color_title.words:before {
-    background-image: url(/img/color/color_02.png);
+    background-image: url(../img/color/color_02.png);
 }
 
 .color_title.favorite:before {
-    background-image: url(/img/color/color_03.png);
+    background-image: url(../img/color/color_03.png);
 }
 
 
 .color_title.works:before {
-    background-image: url(/img/color/color_04.png);
+    background-image: url(../img/color/color_04.png);
 }
 
 .color_title.design:before {
-    background-image: url(/img/color/color_05.png);
+    background-image: url(../img/color/color_05.png);
 }
 
 .color_title.photo:before {
-    background-image: url(/img/color/color_06.png);
+    background-image: url(../img/color/color_06.png);
 }
 
 .color_title.painting:before {
-    background-image: url(/img/color/color_07.png);
+    background-image: url(../img/color/color_07.png);
 }
 
 .color_title.sewing:before {
-    background-image: url(/img/color/color_08.png);
+    background-image: url(../img/color/color_08.png);
 }
 
 .color_title.footwork:before {
-    background-image: url(/img/color/color_09.png);
+    background-image: url(../img/color/color_09.png);
 }
 
 .color_title.city:before {
-    background-image: url(/img/color/color_10.png);
+    background-image: url(../img/color/color_10.png);
 }
 
 .color_title.fashion:before {
-    background-image: url(/img/color/color_11.png);
+    background-image: url(../img/color/color_11.png);
 }
 
 .color_title.study:before {
-    background-image: url(/img/color/color_12.png);
+    background-image: url(../img/color/color_12.png);
 }
 
 .img_data {}
