@@ -1,0 +1,394 @@
+html {
+    /*background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;*/
+    margin: 0;
+    border: none;
+    overflow: hidden;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+.title {
+    position: absolute;
+    top: -130px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title img {
+    display: block;
+    width: 100px;
+    margin: 30px auto 0;
+}
+
+.palette_frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.palette {
+    position: relative;
+    background: #0F1453;
+    width: 600px;
+    height: 445px;
+}
+
+.palette_box {
+    display: inline-block;
+    margin: 50px;
+}
+
+.palette .circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.palette .palette_box .color {
+    float: left;
+    margin: 0 60px 0px 0px;
+    padding: 0;
+}
+
+.palette .palette_box .color:nth-child(4n) {
+    margin: 0 -60px 0px 0px;
+}
+
+.palette .palette_box .color:nth-of-type(n+5) {
+    margin-top: 20px;
+}
+
+.palette .palette_box .color .circle.natsumi {
+    background: #de2338;
+}
+
+.palette .palette_box .color .circle.concept {
+    background: #E59149;
+}
+
+.palette .palette_box .color .circle.policy {
+    background: #E5C149;
+}
+
+.palette .palette_box .color .circle.works {
+    background: #FAFFBF;
+}
+
+.palette .palette_box .color .circle.design {
+    background: #252E9A;
+}
+
+.palette .palette_box .color .circle.photo {
+    background: #76C4CB;
+}
+
+.palette .palette_box .color .circle.painting {
+    background: #76A0CB;
+}
+
+.palette .palette_box .color .circle.sewing {
+    background: #F0FFFF;
+}
+
+.palette .palette_box .color .circle.footwork {
+    background: #0d6d46;
+}
+
+.palette .palette_box .color .circle.city {
+    background: #83e490;
+}
+
+.palette .palette_box .color .circle.fashion {
+    background: #c115aa;
+}
+
+.palette .palette_box .color .circle.study {
+    background: #a269ea;
+}
+
+
+.palette .palette_box .color .color_name {
+    color: #fff;
+    font-size: 14px;
+    margin: 5px 0px 0 0;
+    text-align: center;
+}
+
+.palette_box.text {
+    display: inline-block;
+    margin: 50px 50px 30px;
+    color: #ffffff;
+    font-size: 14px;
+    width: 500px;
+    text-align: left;
+}
+
+.palette_box.text .long p {
+    overflow: scroll;
+    max-height: 175px;
+}
+
+.palette_box.text .palettelong {
+    display: inline-block;
+    margin: 50px 50px 30px;
+    color: #ffffff;
+    font-size: 14px;
+    width: 500px;
+    text-align: left;
+}
+
+.color_title {
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+}
+
+.color_title:before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.color_title.natsumi:before {
+    background-image: url(../img/color/color_01.png);
+}
+
+.color_title.concept:before {
+    background-image: url(../img/color/color_02.png);
+}
+
+.color_title.policy:before {
+    background-image: url(../img/color/color_03.png);
+}
+
+
+.color_title.works:before {
+    background-image: url(../img/color/color_04.png);
+}
+
+.color_title.design:before {
+    background-image: url(../img/color/color_05.png);
+}
+
+.color_title.photo:before {
+    background-image: url(../img/color/color_06.png);
+}
+
+.color_title.painting:before {
+    background-image: url(../img/color/color_07.png);
+}
+
+.color_title.sewing:before {
+    background-image: url(../img/color/color_08.png);
+}
+
+.color_title.footwork:before {
+    background-image: url(../img/color/color_09.png);
+}
+
+.color_title.city:before {
+    background-image: url(../img/color/color_10.png);
+}
+
+.color_title.fashion:before {
+    background-image: url(../img/color/color_11.png);
+}
+
+.color_title.study:before {
+    background-image: url(../img/color/color_12.png);
+}
+
+.img_data {}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+}
+
+.text_main {
+    text-align: left;
+    margin: 20px 0 0;
+}
+
+.text_main iframe {
+    margin: 20px 0 0;
+    width: 300px;
+    height: 169px;
+}
+
+.list01 {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.list01 table {
+    display: block;
+}
+
+.list01 tr {
+    margin: 0;
+}
+
+.list01 tr td {
+    margin: 0;
+}
+
+.list01 tr td:first-child {
+    padding-right: 10px;
+}
+
+.list02 {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.list02 .box {
+    margin: 20px 0;
+    padding-left: 30px;
+    width: auto;
+}
+
+.list02 .box:last-child {
+    margin: 0;
+}
+
+.list02 .box li {}
+
+.list02 .box li:first-child {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.list02 .box li:nth-of-type(n+2) {
+    list-style: none;
+}
+
+.img_data {
+    position: absolute;
+    bottom: -80px;
+    right: -70px;
+}
+
+.img_data_two {
+    position: absolute;
+    width: 280px;
+    bottom: -90px;
+    right: -50px;
+}
+
+#photo .img_data_two {
+    bottom: -30px;
+    right: -50px;
+}
+
+#design.img_data_two {
+    bottom: -50px;
+    right: -70px;
+}
+
+#painting .img_data_two {
+    bottom: -50px;
+    right: -70px;
+}
+
+.img_data .img_01 {
+    width: 50%;
+    transform: rotate(25deg);
+}
+
+
+.img_data_two .img_two_01 {
+    width: 50%;
+    transform: rotate(15deg);
+}
+
+.img_data_two .img_two_02 {
+    width: 50%;
+    margin-left: -20px;
+    margin-bottom: 50px;
+    transform: rotate(-10deg);
+}
+
+#design .img_data_two .img_two_01 {
+    transform: rotate(115deg);
+}
+
+#design .img_data_two .img_two_02 {
+    margin-left: -90px;
+    margin-bottom: 120px;
+    transform: rotate(100deg);
+}
+
+#painting .img_data_two .img_two_01 {
+    transform: rotate(115deg);
+}
+
+#painting .img_data_two .img_two_02 {
+    margin-left: -90px;
+    margin-bottom: 120px;
+    transform: rotate(100deg);
+}
+
+.slide_none {
+    display: none;
+}
+
+/* BUTTON */
+
+.bt01 a {
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px 10px;
+    line-height: 1.5em;
+    margin: 20px 0 0;
+    border: solid 1px;
+    text-align: center;
+}
+
+.bt01 a:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+
+.footer_frame {
+    width: 100px;
+    height: 30px;
+    border: none;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    margin: auto;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+}
+
+.footer img {
+    width: 40px;
+}
+
+footer {
+    width: 100%;
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+}
